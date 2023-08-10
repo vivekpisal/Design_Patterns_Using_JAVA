@@ -11,6 +11,6 @@ public class ThickBorder implements Shape{
 
 	@Override
 	public String draw() {
-		return "Thick border";
+		return "Thick border "+shape.draw();
 	}
 }
